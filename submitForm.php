@@ -25,6 +25,7 @@ $accessActivity = $goToActivity->get();
 
     printf("</strong>! </div>");
 
+
 echo "$accessActivity";
 }else{
 
