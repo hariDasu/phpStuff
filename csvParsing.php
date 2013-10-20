@@ -30,7 +30,7 @@
     }*/
        // echo '</pre>';
 
-
+/*
      $writeCsv = array();
 
         $fp = fopen('file.csv','w');
@@ -39,12 +39,60 @@
             fputcsv($fp,$fields);
         }
 
-        fclose($fp);
+        fclose($fp);*/
 
 
 class html {
     public static function createTable($data){
-        echo "<table>";
+
+
+        $row = 1;
+        if (($handle = fopen("countrylist.csv", "r")) !== FALSE) {
+
+            echo '<table border="1">';
+
+            while (($data = fgetcsv($handle)) !== FALSE) {
+                $num = count($data);
+                if ($row == 1) {
+                    echo '<thead><tr>';
+                }else{
+                    echo '<tr>';
+                }
+
+                for ($c=0; $c < $num; $c++) {
+                    //echo $data[$c] . "<br />\n";
+                    if(empty($data[$c])) {
+                        $value = "&nbsp;";
+                    }else{
+                        $value = $data[$c];
+                    }
+                    if ($row == 1) {
+                        echo '<th>'.$value.'</th>';
+                    }else{
+                        echo '<td>'.$value.'</td>';
+                    }
+                }
+
+                if ($row == 1) {
+                    echo '</tr></thead><tbody>';
+                }else{
+                    echo '</tr>';
+                }
+                $row++;
+            }
+
+            echo '</tbody></table>';
+            fclose($handle);
+        }
+
+   /*     for($i=0;$i<22;$i++){
+            foreach ($data as $key1 => $row1){
+                {
+                    echo"<th>" .$row1[$i] ."</th>";
+                }
+            }
+
+        }
         foreach($data as $key => $row){
             echo"<tr>";
             foreach($row as $key2=>$row2){
@@ -55,13 +103,10 @@ class html {
         }
 
         echo "</table>";
-    }
+    }*/
+        }
+
 }
-
-
-
-
-
 
 
 ?>
