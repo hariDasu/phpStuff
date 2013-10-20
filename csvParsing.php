@@ -8,17 +8,60 @@
 
 <?php
 
-    $countryArray = array();
+        $csv = array();
+        $file = fopen('countrylist.csv', 'r');
 
-    $file_handle = fopen("countrylist.csv","r");
+        while (($result = fgetcsv($file)) !== false)
+        {
+            $csv[] = $result;
+        }
 
-    while (!feof($file_handle) ) {
+        fclose($file);
 
-        $line_of_text = fgetcsv($file_handle);
+        //echo '<pre>';
+        //print_r($csv);
 
-        print_r ($line_of_text);
 
+    html::createTable($csv);
+  /*  foreach($csv as $record){
+        foreach($record as $label => $value){
+            echo $label . ': ' . $value . '</br>';
+        }
+    }*/
+       // echo '</pre>';
+
+
+     $writeCsv = array();
+
+        $fp = fopen('file.csv','w');
+
+        foreach ($data as $fields){
+            fputcsv($fp,$fields);
+        }
+
+        fclose($fp);
+
+
+class html {
+    public static function createTable($data){
+        echo "<table>";
+        foreach($data as $key => $row){
+            echo"<tr>";
+            foreach($row as $key2=>$row2){
+                echo "<td>" .$row2 ."</td>";
+            }
+
+            echo"</tr>";
+        }
+
+        echo "</table>";
     }
-    fclose($file_handle);
+}
+
+
+
+
+
+
 
 ?>
