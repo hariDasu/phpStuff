@@ -76,18 +76,18 @@ class homepage extends page {
 
 
 #=============================================
-class login extends page {
+class entry extends page {
 	function get() {
-		$html = file_get_contents('login.html');
+		$html = file_get_contents('entry.html');
 		echo "$html";
 	}}
 	
 
 #=============================================
-class activity extends page {
+class contacts extends page {
 	 
 	function get(){
-		$html = file_get_contents('activity.html');
+		$html = file_get_contents('contacts.html');
 		return "$html";
 	}
 }

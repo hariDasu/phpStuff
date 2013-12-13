@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+		<html>
+		
+			<head>
+				<meta charset="utf-8"/>
+				<title>Testing php logins</title>
+		
+				<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+		
+				<!-- The main CSS file -->
+				<link href="assets/css/style.css" rel="stylesheet" />
+		
+				<!--[if lt IE 9]>
+					<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+				<![endif]-->
+				<style>body { padding-top: 70px; }</style>
+			</head>
+		
+			<body>
+			 <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Testing PHP</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="http://web.njit.edu/~sdr3/phpStuff/index.php">Home</a></li>
+            <li class="active"><a href="http://web.njit.edu/~sdr3/phpStuff/index.php?page=login">Login</a></li>
+			<li><a href="http://web.njit.edu/~sdr3/phpStuff/index.php?page=activity">Account Activity</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+			<div class="container">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+		<div class="well well-lg">
+				<form id="login-register" method="post" action="submitForm.php">
+		
+					<h1>Login or Register</h1>
+					<div class="row">
+				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+
+      <input type="text" class="form-control" placeholder="username" name="username" autofocus/><br/>
+      <input type="text" class="form-control" placeholder="password" name="password" /><br/>
+      <input type="text" class="form-control" placeholder="email" name="email" /><br />
+      <span class="input-group-btn">
+        
+					<button class="btn btn-default" name="login" type="submit">Login</button>
+					<button class="btn btn-default submit" name="register" id="register" value="register" type="submit">Register</button>
+					<button type="submit" name="forgot" class="btn btn-default">Forgot Password?</button>
+		
+				
+		
+				
+      </span>
+    
+  </div><!-- /.col-lg-6 -->
+  </div>
+ 
+	
+				</form>
+				
+		
+				</div></div></div>
+		        
+				<!-- JavaScript Includes -->
+				<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+				<script src="assets/js/script.js"></script>
+		
+			</body>
+			</html>
