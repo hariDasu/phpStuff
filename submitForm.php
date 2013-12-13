@@ -15,7 +15,7 @@ $goToActivity = new activity(contacts);
 
 
 
-$accessActivity = $goToActivity->get();
+
 
 
     printf ("<div class='text-center alert alert-success'>
@@ -43,6 +43,9 @@ $accessActivity = $goToActivity->get();
 
 
 echo "$accessActivity";
+
+
+$accessActivity = $goToActivity->get();
 /*else{
 
 
