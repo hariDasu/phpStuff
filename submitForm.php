@@ -2,17 +2,16 @@
 include 'index.php';
 
 
-$username=$_POST['username'];
-$password=$_POST['password'];
+$name=$_POST['name'];
 $email=$_POST['email'];
+$message=$_POST['message'];
 
 
-$_SESSION['userName'] = "$username";
+$_SESSION['currentName'] = "$name";
 
 
-if ($username == 'cleverGuy' && $password == 'cleverPassword' && $email=='clever@email.com')
-{
-$goToActivity = new activity(activity);
+
+$goToActivity = new activity(contacts);
 
 
 
@@ -20,14 +19,31 @@ $accessActivity = $goToActivity->get();
 
 
     printf ("<div class='text-center alert alert-success'>
-                Welcome to your account,<strong> ");
-    printf($_SESSION['userName']);
+                Contact <strong> ");
+    printf($_SESSION['currentName']);
 
-    printf("</strong>! </div>");
+    printf("</strong> entered successfully! </div>");
+
+    printf("	<table class='table table-hover table-bordered'>
+                    <thead>
+                        <tr>
+                        <th>Contact Name</th>
+                        <th>Contact Email</th>
+                        <th>Message</th>
+                        </tr>
+                    </thead>
+                <tbody>
+                    <tr>
+                        <td>$name</td>
+                        <td>$email</td>
+                        <td>$message</td>
+                    </tr>
+			    </tbody>
+			</table>");
 
 
 echo "$accessActivity";
-}else{
+/*else{
 
 
 	$html = file_get_contents('login.html');
@@ -36,7 +52,7 @@ echo "$accessActivity";
                 <strong>Incorrect Login!</strong> Please try again!
             </div>");
 		
-}
+}*/
 		
 
 
