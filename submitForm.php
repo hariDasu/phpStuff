@@ -24,7 +24,7 @@ $accessActivity = $goToActivity->get();
 
     printf("</strong> entered successfully! </div>");
 
-    printf("	<table class='table table-hover table-bordered'>
+ /*   printf("	<table class='table table-hover table-bordered'>
                     <thead>
                         <tr>
                         <th>Contact Name</th>
@@ -39,7 +39,7 @@ $accessActivity = $goToActivity->get();
                         <td>$message</td>
                     </tr>
 			    </tbody>
-			</table>");
+			</table>");*/
 
 
 echo "$accessActivity";

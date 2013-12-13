@@ -44,15 +44,25 @@
 			<div class="container">
 			<div class="row">
 			<div class="col-lg-6">
-			<table class='table table-hover table-bordered'>
-			<tbody>
-			<tr><td>Date</td>
-			<td>Transaction Source</td>
-			<td>Transaction Type</td><td>Transaction Amount</td>
-			<tr><td>Aug-13</td><td>Shop-Rite</td><td>Grocery</td>
-			<td>96</td><tr><td>Jan-4</td><td>BMW</td><td>Automobile</td>
-			<td>59999</td><tr><td>Sept-4</td><td>Guitar Center</td><td>Guitar</td>
-			<td>2400</td></tbody></table>
+            <?php
+            include 'submitForm.php';
+            printf("	<table class='table table-hover table-bordered'>
+                <thead>
+                <tr>
+                    <th>Contact Name</th>
+                    <th>Contact Email</th>
+                    <th>Message</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>$name</td>
+                    <td>$email</td>
+                    <td>$message</td>
+                </tr>
+                </tbody>
+                </table>");
+                ?>
 				</div>
 				</div></div>
 		        
