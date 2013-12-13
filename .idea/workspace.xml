@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a099dd91-3471-48dc-a456-b6c72087d842" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submitForm.php" afterPath="$PROJECT_DIR$/submitForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entry.html" afterPath="$PROJECT_DIR$/entry.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phpStuff.iws" />
@@ -34,16 +34,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="29" selection-start="1286" selection-end="1286" vertical-scroll-proportion="-6.875" vertical-offset="1125" max-vertical-offset="1545">
+            <state line="86" column="29" selection-start="1286" selection-end="1286" vertical-scroll-proportion="-8.75" vertical-offset="1080" max-vertical-offset="1545">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entry.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="entry.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/entry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="55" selection-start="926" selection-end="926" vertical-scroll-proportion="6.875" vertical-offset="570" max-vertical-offset="1215">
+            <state line="52" column="92" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.53424656" vertical-offset="585" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -52,16 +52,16 @@
       <file leaf-file-name="contacts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="13" selection-start="1602" selection-end="1602" vertical-scroll-proportion="-9.583333" vertical-offset="460" max-vertical-offset="1230">
+            <state line="46" column="13" selection-start="1602" selection-end="1602" vertical-scroll-proportion="-10.833333" vertical-offset="430" max-vertical-offset="1230">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submitForm.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="submitForm.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/submitForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="39" selection-start="991" selection-end="991" vertical-scroll-proportion="0.8730159" vertical-offset="375" max-vertical-offset="1170">
+            <state line="47" column="39" selection-start="991" selection-end="991" vertical-scroll-proportion="-13.75" vertical-offset="375" max-vertical-offset="1170">
               <folding>
                 <marker date="1386970045000" expanded="true" signature="248:375" placeholder="..." />
                 <marker date="1386970045000" expanded="true" signature="248:266" placeholder="..." />
@@ -166,10 +166,10 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/activity.html" />
-        <option value="$PROJECT_DIR$/entry.html" />
         <option value="$PROJECT_DIR$/homepage.html" />
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/submitForm.php" />
+        <option value="$PROJECT_DIR$/entry.html" />
       </list>
     </option>
   </component>
@@ -388,7 +388,11 @@
       <created>1386969740396</created>
       <updated>1386969740396</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="edited for AFS">
+      <created>1386970051098</created>
+      <updated>1386970051098</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -539,30 +543,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="29" selection-start="1286" selection-end="1286" vertical-scroll-proportion="-6.875" vertical-offset="1125" max-vertical-offset="1545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="55" selection-start="926" selection-end="926" vertical-scroll-proportion="6.875" vertical-offset="570" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="13" selection-start="1602" selection-end="1602" vertical-scroll-proportion="-9.583333" vertical-offset="460" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/submitForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="39" selection-start="991" selection-end="991" vertical-scroll-proportion="0.8730159" vertical-offset="375" max-vertical-offset="1170">
+        <state line="47" column="39" selection-start="991" selection-end="991" vertical-scroll-proportion="-13.75" vertical-offset="375" max-vertical-offset="1170">
           <folding>
             <marker date="1386970045000" expanded="true" signature="248:375" placeholder="..." />
             <marker date="1386970045000" expanded="true" signature="248:266" placeholder="..." />
@@ -582,6 +565,27 @@
             <marker date="1386970045000" expanded="true" signature="771:893" placeholder="..." />
             <marker date="1386970045000" expanded="true" signature="1115:1202" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="13" selection-start="1602" selection-end="1602" vertical-scroll-proportion="-10.833333" vertical-offset="430" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="29" selection-start="1286" selection-end="1286" vertical-scroll-proportion="-8.75" vertical-offset="1080" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="92" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.53424656" vertical-offset="585" max-vertical-offset="1200">
+          <folding />
         </state>
       </provider>
     </entry>
