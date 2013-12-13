@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a099dd91-3471-48dc-a456-b6c72087d842" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activity.html" afterPath="$PROJECT_DIR$/activity.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.html" afterPath="$PROJECT_DIR$/contacts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entry.html" afterPath="$PROJECT_DIR$/entry.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage.html" afterPath="$PROJECT_DIR$/homepage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phpStuff.iws" />
@@ -38,16 +36,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="40" selection-start="1178" selection-end="1178" vertical-scroll-proportion="-6.875" vertical-offset="1035" max-vertical-offset="1545">
+            <state line="80" column="40" selection-start="1178" selection-end="1178" vertical-scroll-proportion="-8.75" vertical-offset="990" max-vertical-offset="1545">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entry.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="entry.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="81" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.41095892" vertical-offset="585" max-vertical-offset="1215">
+            <state line="27" column="55" selection-start="926" selection-end="926" vertical-scroll-proportion="-8.75" vertical-offset="195" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
@@ -56,7 +54,7 @@
       <file leaf-file-name="contacts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="43" selection-start="205" selection-end="205" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1080">
+            <state line="32" column="43" selection-start="1014" selection-end="1026" vertical-scroll-proportion="-7.5" vertical-offset="300" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -98,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="homepage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="43" selection-start="109" selection-end="109" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="900">
+            <state line="27" column="67" selection-start="938" selection-end="938" vertical-scroll-proportion="0.12328767" vertical-offset="360" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -157,11 +155,11 @@
         <option value="$PROJECT_DIR$/csvParsing.php" />
         <option value="$PROJECT_DIR$/loginAgain.html" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/homepage.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/activity.html" />
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/entry.html" />
+        <option value="$PROJECT_DIR$/homepage.html" />
       </list>
     </option>
   </component>
@@ -364,7 +362,11 @@
       <created>1386967233774</created>
       <updated>1386967233774</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="edited for AFS">
+      <created>1386967478132</created>
+      <updated>1386967478132</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -488,20 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="40" selection-start="1178" selection-end="1178" vertical-scroll-proportion="-6.875" vertical-offset="1035" max-vertical-offset="1545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="43" selection-start="109" selection-end="109" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginAgain.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="55" selection-start="1276" selection-end="1276" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="1485">
@@ -523,16 +511,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="40" selection-start="1178" selection-end="1178" vertical-scroll-proportion="-8.75" vertical-offset="990" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="205" selection-end="205" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="1080">
+        <state line="32" column="43" selection-start="1014" selection-end="1026" vertical-scroll-proportion="-7.5" vertical-offset="300" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="81" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.41095892" vertical-offset="585" max-vertical-offset="1215">
+        <state line="27" column="55" selection-start="926" selection-end="926" vertical-scroll-proportion="-8.75" vertical-offset="195" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="67" selection-start="938" selection-end="938" vertical-scroll-proportion="0.12328767" vertical-offset="360" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
