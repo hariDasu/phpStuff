@@ -11,11 +11,11 @@ $_SESSION['currentName'] = "$name";
 
 
 
-$goToActivity = new activity(contacts);
+$goToActivity = new contacts('x');
 
 
 
-
+$accessActivity = $goToActivity->get();
 
 
     printf ("<div class='text-center alert alert-success'>
@@ -24,7 +24,7 @@ $goToActivity = new activity(contacts);
 
     printf("</strong> entered successfully! </div>");
 
- /*   printf("	<table class='table table-hover table-bordered'>
+    printf("	<table class='table table-hover table-bordered'>
                     <thead>
                         <tr>
                         <th>Contact Name</th>
@@ -39,13 +39,13 @@ $goToActivity = new activity(contacts);
                         <td>$message</td>
                     </tr>
 			    </tbody>
-			</table>");*/
+			</table>");
 
 
 echo "$accessActivity";
 
 
-$accessActivity = $goToActivity->get();
+
 /*else{
 
 

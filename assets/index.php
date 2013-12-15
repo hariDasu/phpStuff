@@ -72,9 +72,9 @@ class homepage extends page {
 }
 
 #=============================================
-class login extends page {
+class entry extends page {
 	function get() {
-		$html = file_get_contents('login.html');
+		$html = file_get_contents('entry.html');
 		echo "$html";
 	}}
 	
